@@ -29,13 +29,25 @@ A webcam is required for real-time gesture tracking.
 The CNN for digit recognition is trained using the cnn_model.ipynb notebook. It uses standard digit datasets (like MNIST) and outputs a .h5 model used for prediction in the main script.
 
 # Controls
-Gesture	                                        Function
-Two fingers up over top bar	                    Select tool (pen/eraser/control)
-One finger (index)	                            Draw or erase
-Thumb + Index pinch	                            Adjust brightness or volume
-Tool "Predict" Button	                          Predict drawn digit
-Press s	                                        Save canvas as image
-Press q	                                        Quit
+Gesture: Function
+
+
+Two fingers up over top bar : Select tool (pen/eraser/control)
+
+
+One finger (index): Draw or erase
+
+
+Thumb + Index pinch: Adjust brightness or volume
+
+
+Tool "Predict" Button: Predict drawn digit
+
+
+Press s: Save canvas as image
+
+
+Press q: Quit
 
 # How to Run
 python VirtualNotepad.py
